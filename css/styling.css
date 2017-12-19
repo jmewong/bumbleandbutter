@@ -1,0 +1,924 @@
+html,
+body,
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed";
+}
+
+h1 {
+    /*font-family: "Montserrat", sans-serif;*/
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.4em;
+    /*border: 1px solid blue;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li > a {
+    color: #999999;
+}
+
+a:hover {
+    color: #dcae1d;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.current_page {
+    border-bottom: 3px solid #999999;
+    padding-bottom: 5px;
+}
+
+.current_page:hover {
+    color: #999999;
+}
+
+a i {
+    color: #777777;
+
+    /*border: 1px solid black;*/
+}
+
+a i:hover {
+    color: #dcae1d;
+    /*color: red;*/
+}
+
+.ibot {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+p {
+    line-height: 170%;
+    font-size: 1.1em;
+}
+
+input {
+    /*outline: none;*/
+    height: 40px;
+    /*background: none;*/
+    border: none;
+    text-shadow: none;
+    font-size: 1em;
+
+    /*border: 1px solid black;*/
+}
+
+#nav_bar {
+    color: #999999;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 1.5em;
+
+    position: fixed;
+    background-color: white;
+    z-index: 9999999;
+    top: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    /*border: 2px solid pink;*/
+
+    display: table;
+    width: 100%;
+
+    border-bottom: 1px solid #dcae1d;
+    
+}
+
+#purchase_tab:hover {
+    cursor: pointer;
+}
+
+#nav_bar > a > img {
+    width: 22%;
+    /*height: 100%;*/
+    float: left;
+    margin-left: 2%;
+
+    /*border: 2px solid green;*/
+}
+
+ul {
+    padding: 0;
+}
+
+#nav_bar ul {
+    padding-top: 10px;
+
+    /*border: 1px solid black;*/
+    text-align: center;
+
+    display: table-cell;
+    float: right;
+    margin-right: 100px;
+}
+
+ul > li {
+    display: inline-block;
+    margin: 0 auto 0 auto;
+
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+    /*border: 1px solid blue;*/
+}
+
+.social_icon {
+    padding-right: 0;
+}
+
+#slideshow {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    overflow: hidden;
+    background-image: url(../assets/JME-6132.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    /*background-position: 0 -75px;*/
+
+    text-align: center;
+
+    /*border: 2px solid red;*/
+}
+
+.fa-chevron-circle-down {
+    color: white;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /*border: 2px solid pink;*/
+}
+
+.scroll_spacer {
+    display: block;
+    position: relative;
+    top: -98px;
+    visibility: hidden;
+}
+
+.maincontent {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding-top: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    
+/*    border: 1px solid black;*/
+}
+
+.left_col {
+    float: left;
+    width: 46%;
+
+    /*border: 2px solid blue;*/
+}
+
+.right_col {
+    float: right;
+    width: 46%;
+
+    /*border: 2px solid pink;*/
+    position: relative;
+}
+
+.small_img {
+    width: 100%;
+}
+
+.big_img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+
+}
+
+.description {
+    color: #777777;
+}
+
+.section_title {
+    margin-bottom: 0;
+}
+
+.learnmore {
+    text-align: center;
+    color: black;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /*position: absolute;*/
+    display: table-cell;
+    /*width: 70%;*/
+
+    margin-top: 15px;
+}
+
+.learnmore:hover {
+    color: white;
+    background-color: #dcae1d;
+}
+
+#buynow {
+    color: white;
+    background-color: black;
+    padding: 13px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+
+    /*border: 2px solid pink;*/
+}
+
+#buynow:hover {
+    background-color: #dcae1d;
+    /*border: 2px solid #dcae1d;*/
+
+}
+
+#about {
+
+    display: inline-block;
+    width: 100%;
+
+    padding-top: 50px;
+    /*padding-bottom: 120px;*/
+
+    /*border: 2px solid black;*/
+}
+
+#aboutus {
+    padding-top: 50px;
+}
+
+#people {
+    margin-top: 70px;
+}
+
+#followus {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#followus > p, #flavors_content > p {
+    font-size: 1.3em;
+}
+
+#followus h1 {
+    margin-bottom: 0;
+}
+
+#mission_statement {
+    max-height: 700px;
+    text-align: center;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 0;
+
+    margin-top: 100px;
+
+    /*background-image: url(../assets/JME-6412.jpg);*/
+
+    /*border: 1px solid black;*/
+}
+
+#mission_statement > img {
+  opacity: 0.5;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+#mission_statement > h2 {
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    font-size: 2em;
+
+    font-family: "Pathway Gothic One";
+}
+
+#mission_statement > p {
+    font-size: 3.0vw;
+    line-height: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 0;
+    padding-top: 15%;
+    position: absolute;
+
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+#instagram_feed {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.ig_img {
+    width: 250px;
+    height: 250px;
+}
+
+#flavors {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+.home_flavor {
+    text-align: center;
+    vertical-align: top;
+
+    position: relative;
+    display: inline-block;
+
+    width: 25%;
+
+    margin-top: 80px;
+
+    /*border: 1px solid black;*/
+
+}
+
+.flavor_description {
+    position: absolute;
+    width: 50%;
+
+    text-align: center;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 25%;
+    /*height: 200px;*/
+
+    color: white;
+    background-color: black;
+
+    display: block;
+    z-index: -1;
+
+    /*border: 2px solid pink;*/
+}
+
+.flavor_img {
+    width: 80%;
+    /*border: 1px solid black;*/
+
+    display: inline-block;
+
+    z-index: 1;
+}
+
+.flavor_img:hover {
+    opacity: 0.2;
+}
+
+.flavor_img:hover + .flavor_description {
+    display: inline-block;
+}
+
+#footer {
+    font-family: "Open Sans Condensed", sans-serif;
+    border: 1px solid white;
+    border-top: 3px double gray;
+
+    text-align: center;
+
+    margin-top: 70px;
+    padding-bottom: 30px;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /*border: 1px solid black;*/
+}
+
+#newsletter p {
+    margin-bottom: 5px;
+}
+
+#email {
+    width: 200px;
+    border: 1px solid #aaaaaa;
+    height: 40px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+
+    right: 0;
+    margin-right: 0;
+}
+
+#submit {
+    width: 100px;
+    height: 43px;
+    padding-top: 4px;
+
+    background-color: white;
+
+    border: 2px solid #222222;
+
+    left: 0;
+    margin-left: 0;
+}
+
+#submit:hover {
+    background-color: #222222;
+    color: white;
+}
+
+.content {
+    width: 75%;
+    margin: auto;
+
+    /*border: 1px solid red;*/
+}
+
+.modal_opener:hover {
+    cursor: pointer;
+}
+
+/* Modal window for FAQ */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+#flavor_modal {
+    padding-top: 100px;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    padding-bottom: 50px;
+    width: 70%;
+
+    text-align: left;
+    overflow: auto;
+}
+
+.modal-footer {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.modal-footer > img {
+    width: 30%;
+}
+
+.actual_modal_content {
+    margin: 40px;
+    padding: 30px;
+    padding-bottom: 0;    
+
+    /*border: 1px solid pink;*/
+}
+
+.modal_left {
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+
+    width: 45%;
+
+    /*display: inline-block;
+    vertical-align: middle;*/
+
+    /*border: 1px solid green;*/
+}
+
+/*.fa-angle-left {
+    border:1px solid green; 
+    position: absolute;
+}*/
+
+#modal_img {
+    width: 90%;
+    /*border: 1px solid blue;*/
+    padding: 0;
+
+    /*float: right;*/
+}
+
+.modal_right {
+    width: 45%;
+    float: right;
+
+    /*border: 1px solid red;*/
+}
+
+#modal_description {
+    margin-top: 0;
+}
+
+.question {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.QandA {
+    width: 70%;
+    margin: auto;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#store {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#options {
+    /*border: 2px solid pink;*/
+
+    padding-top: 20px;
+
+    display: table;
+    width: 100%;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.9em;
+
+    /* Credit for the image goes to http://i62.tinypic.com/15xvbd5.png 
+     * Taken from https://codepen.io/ericrasch/pen/zjDBx */
+    background: url("http://i62.tinypic.com/15xvbd5.png") no-repeat;
+    background-position: right 10px top 1px;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+#flavor_options {
+
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#size_options {
+
+}
+
+.store_right {
+    float: right;
+    width: 46%;
+
+    height: 500px;
+    /*border: 2px solid blue;*/
+    position: relative;
+}
+
+.temporary_shop {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 3px;
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    border-radius: 5px;
+}
+
+.temporary_inquiry {
+    margin-top: 50px;
+    text-align: center;
+
+    font-size: 1.3em;
+}
+
+.my_add_to_cart {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 3px;
+
+    height: 60px;
+    width: 185px;
+
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    /*border: 2px solid red;*/
+}
+
+.my_add_to_cart:hover {
+    background-color: #dcae1d;
+    cursor: pointer;
+}
+
+.paypal_logo {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+
+    /*border: 2px solid black;*/
+}
+
+/*@media screen and (max-width: 768px) {
+    #top_img,
+    #nav_bar {
+        display: none;
+    }
+    #name_bar {
+        display: block;
+    }
+    .content {
+        width: 80%;
+    }
+}*/
+
+/******Tablet**************************************/
+/**************************************************/
+
+@media screen and (min-width:768px) and (max-width:1014px) {
+
+    #images_nav {
+        height: 195px !important;
+        width: 768px !important;
+    }
+
+    .imgdiv {
+        height: 189px !important;
+        width: 189px !important;
+    }
+
+    .imgdesc {
+        font-size: 1em !important;
+        line-height: 189px !important;
+    }
+
+    #content {
+        margin-top: 21em !important;
+        width: 700px !important;
+    }
+
+}
+
+/*****Phone*****************************************/
+/***************************************************/
+@media screen and (max-width: 767px) {
+    #slideshow {
+        display: none;
+    }
+
+    #nav_bar > a > img {
+        width: 60%;
+        margin-left: 18%;
+    }
+
+    #nav_bar ul {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    ul > li {
+        display: inline-block;
+        margin: 0 auto 0 auto;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    #mission_statement {
+        margin-top: 40px;
+    }
+
+    #mission_statement > h2 {
+        padding-top: 10%;
+    }
+
+    #mission_statement > p {
+        padding-top: 30%;
+        font-size: 4.0vw;
+    }
+
+    #followus {
+        margin-bottom: 10px;
+    }
+
+    #followus h1 {
+        margin-top: -1.5em;
+        font-size: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width:100%
+    }
+
+    #flavors {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #flavors_content h1 {
+        font-size: 2em !Important;
+    }
+
+    .home_flavor {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    #instagram_feed {
+        margin-top: 0px;
+    }
+
+    #instagram_feed h1 {
+        margin-top: 0px !Important;
+        margin-bottom: 0px !Important;
+        font-size: 2em;
+    }
+
+    #flavor_modal {
+        padding-top: 90px;
+    }
+
+    .actual_modal_content {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .modal_left {
+        margin-top: -1.5em !Important;
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .modal_right {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    #modal_img {
+        display:none;
+    }
+
+    .left_col {
+        margin-top:3px;
+        font-size: 1em;
+        margin-left: auto !Important;
+        margin-right: auto !Important;
+        width: 100%;
+    }
+
+    .right_col {
+        margin-top:10px;
+        font-size: 1em;
+        margin-left: auto !Important;
+        margin-right: auto !Important;
+        width: 100%;
+    }
+
+    #flavor_options {
+        width: 95%;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    #store {
+        margin-top:30px;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .store_right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .social_icon {
+        display: none;
+    }
+
+    .temporary_shop {
+        width: 90%;
+        position: relative;
+    }
+
+    .temporary_inquiry {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #slideshow {
+        display: none;
+    }
+
+    #store {
+        margin-top:30px;
+    }
+
+    .store_right {
+        height:600px;
+    }
+
+    .content {
+        width: 95%;
+    }
+
+    .temporary_shop {
+        position: relative;
+    }
+
+    .temporary_inquiry {
+        width: 80%;
+    }
+}
+
